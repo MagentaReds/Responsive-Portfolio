@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <title>Grant Daniels: About Me</title>
+</head>
+
+<body>
+  <!--wrapper class for sticky footer -->
+  <div class="wrapper">
+
+    <!--Navigaton top namne, and links-->
+    <!--This is the entire width of the actual page-->
+    <header class="clearfix">
+    <!-- This is where the content width is constrained to 970px as per the specs -->
+      <div class="clearfix" id="header_section">
+        <div id="header_name">
+           <h1>Grant Daniels</h1>
+        </div>
+
+        <div id="header_links">
+          <p>
+            <div class="header_span"><a class="header_link" href="index.html">About</a></div>  |  
+            <div class="header_span"><a class="header_link" href="portfolio.html">Portfolio</a></div>  |  
+            <div class="header_span"><a class="header_link" href="contact.html">Contact</a></div>
+          </p>
+         </div>
+        </div>
+    </header>
+
+    <!-- Main Page Conent.  Main content with aside sidebar that ontains links -->
+    <!--This is the entire width of the actual page-->
+    <div id="main_wrapper">
+      <!-- This is where the content width is constrained to 970px as per the specs -->
+      <div id="main_content">
+
+        <div id="main_section">
+
+          <h2>Contact Me</h2><br>
+          <hr>
+          <br>
+
+          <form action="mailto:grantodaniels@gmail.com" method="post" enctype="text/plain">
+            <p>Name:</p>
+            <input type="text" name="name" placeholder="John Smith"><br><br>
+            <p>E-mail:</p>
+            <input type="text" name="mail" placeholder="example@something.com"><br><br>
+            <p>Message:</p>
+            <textarea name="comment"></textarea><br><br>
+            <input id="submit" type="submit" value="Submit">
+          </form>
+
+        </div>
+
+        <!--Links to GitHub, LinkedIn, and Stack Overflow pages-->
+        <aside id="sidebar_section">
+          <h2>Connect with me</h2><br>
+          <hr><br>
+
+          <a href="https://github.com/MagentaReds" target="_blank"><img src="./assets/images/github.png" title="GitHub" alt="GitHub" /></a>
+
+          <a href="https://www.linkedin.com/in/grant-daniels-06869876" target="_blank"><img src="./assets/images/linkedin.png" title="LinkedIn" alt="LinkedIn" /></a>
+
+          <a href="http://stackoverflow.com/users/7329010/grant-daniels" target="_blank"><img src="./assets/images/stack_overflow.png" title="Stack Overflow" alt="Stack Overflow" /></a>
+
+        </aside>
+
+      </div>
+    </div>
+
+    <!--push div for sticky footer -->
+    <div class="push"></div>
+  </div>
+
+
+  <div class="footer">
+      <br>
+      <p>© Copyright 2017 Grant Daniels</p>
+  </div>
+
+
+</body>
+</html>
