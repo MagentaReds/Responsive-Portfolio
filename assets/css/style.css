@@ -54,6 +54,10 @@ body {
 
 header {
   background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 5px solid #cccccc;
+  z-index: 5;
 }
 
 #header_section{
@@ -91,8 +95,7 @@ header {
   clear: both;
   overflow: auto;
   margin: auto;
-  padding: 30px 0 30px 0;
-  border-top: 5px solid #cccccc;
+  padding: 100px 0 30px 0;
 }
 
 #main_content {
@@ -228,6 +231,9 @@ textarea {
 
 
 @media screen and (max-width: 640px) {
+  header {
+    position: static;
+  }
   #header_section{
     width: 100%;
     padding: 0;
@@ -244,6 +250,9 @@ textarea {
   .header_span {
     display: inline-block;
     width: 30%;
+  }
+  #main_wrapper {
+    padding: 30px 0 30px 0;
   }
   #main_content {
     width: 400px;
